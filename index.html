@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="app-chat-bar.css" rel="stylesheet" />
+    <link href="app-menu-bar.css" rel="stylesheet" />
+    <link href="app.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whatsapp Web Clone</title>
+  </head>
+  <body>
+    <div class="top-bar"></div>
+    <div class="bottom-bar"></div>
+
+    <div class="content-section">
+      <div class="white-page">
+        <div class="display-section">
+          <div class="menu-section">
+            <div class="tp-ribbon">
+              <div class="user-picture m-i">
+                <img src="picture/u-picture.jpg" />
+              </div>
+              <div class="story-icon m-i">
+                <i class="fas fa-circle-notch"></i>
+              </div>
+              <div class="message-icon m-i">
+                <i class="material-icons">message</i>
+              </div>
+              <div class="option-icon m-i">
+                <span class="glyphicon glyphicon-option-vertical"></span>
+              </div>
+            </div>
+            <div class="search-box">
+              <i class="fas fa-search search-icon"></i>
+              <input
+                class="search-ipnut"
+                placeholder="Search or start new chat"
+              />
+            </div>
+
+            <!-- Display the chat notifiaction for each members -->
+            <div class="notif-section">
+              <div class="u-n-profile">
+                <img src="picture/u-picture.jpg" />
+              </div>
+              <div class="u-n-text">
+                <h4 class="username">Default User</h4>
+                <p class="notif-text">This Message is From Default User!</p>
+              </div>
+              <div class="notif-time">
+                <p class="t-n">12:50</p>
+              </div>
+            </div>
+            <hr class="sectin-lines" />
+
+            <!-- new member notification -->
+            <div class="notif-section">
+              <div class="u-n-profile">
+                <img src="picture/u-picture.jpg" />
+              </div>
+              <div class="u-n-text">
+                <h4 class="username">Default User</h4>
+                <p class="notif-text">This Message is From Default User!</p>
+              </div>
+              <div class="notif-time">
+                <p class="t-n">8:40</p>
+              </div>
+            </div>
+            <hr class="sectin-lines" />
+          </div>
+
+          <!-- Display the chat content for each member -->
+          <div class="display-chat"> </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
