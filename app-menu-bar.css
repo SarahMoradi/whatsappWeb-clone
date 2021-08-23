@@ -1,0 +1,87 @@
+.menu-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .tp-ribbon {
+    height: 65px;
+    background-color: #ededed;
+    display: flex;
+  }
+  .m-i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    color: gray;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .user-picture {
+    margin-right: 190px;
+    margin-left: 10px;
+  }
+  .user-picture > img {
+    width: 40px;
+    border-radius: 50%;
+  }
+  .search-box {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+  }
+  .search-ipnut {
+    width: 95%;
+    height: 35px;
+    padding-left: 50px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+  }
+  .search-icon {
+    cursor: pointer;
+    color: gray;
+    position: absolute;
+    margin-left: -350px;
+  }
+  .notif-section {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+  }
+  .u-n-profile > img {
+    width: 55px;
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+  .u-n-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+  .username {
+    margin-bottom: 2px;
+  }
+  .notif-text {
+    color: gray;
+    font-size: 14px;
+  }
+  .notif-time {
+    margin: auto;
+    color: gray;
+  }
+  .sectin-lines {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
