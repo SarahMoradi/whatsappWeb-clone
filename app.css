@@ -30,9 +30,9 @@
   }
   .white-page {
     width: 1400px;
-    height: 700px;
+    height: 680px;
     margin-top: 20px;
-    background-color: #fff;
+    background-color: #f8f9fa;
     box-shadow: 1px 1px 10px gray;
   }
   .display-section {
