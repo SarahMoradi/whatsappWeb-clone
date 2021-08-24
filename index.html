@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link href="profile-option.css" rel="stylesheet" />
     <link href="app-chat-bar.css" rel="stylesheet" />
     <link href="app-menu-bar.css" rel="stylesheet" />
     <link href="app.css" rel="stylesheet" />
@@ -36,7 +37,7 @@
           <div class="menu-section">
             <div class="tp-ribbon">
               <div class="user-picture m-i">
-                <img src="picture/u-picture.jpg" />
+                <img src="picture/u-picture.jpg" id="user-option"/>
               </div>
               <div class="story-icon m-i">
                 <i class="fas fa-circle-notch"></i>
@@ -55,8 +56,6 @@
                 placeholder="Search or start new chat"
               />
             </div>
-
-            <!-- Display the chat notifiaction for each members -->
             <div class="notif-section">
               <div class="u-n-profile">
                 <img src="picture/u-picture.jpg" />
@@ -71,7 +70,7 @@
             </div>
             <hr class="sectin-lines" />
 
-            <!-- new member notification -->
+            
             <div class="notif-section">
               <div class="u-n-profile">
                 <img src="picture/u-picture.jpg" />
@@ -85,6 +84,8 @@
               </div>
             </div>
             <hr class="sectin-lines" />
+
+
           </div>
 
           <!-- Display the chat content for each member -->
@@ -106,4 +107,5 @@
       </div>
     </div>
   </body>
+  <script src="app.js"></script>
 </html>
