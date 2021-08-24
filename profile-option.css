@@ -1,6 +1,9 @@
 .back-nav-bar {
+  position: absolute;
+  display: none;
   width: 400px;
   height: 100%;
+  z-index: 1;
 }
 .top-nav {
   background-color: #00bfa5;
@@ -19,6 +22,7 @@
   font-family: "tahoma";
 }
 .back-icon {
+  cursor: pointer;
   margin-left: 40px;
   margin-top: 70px;
 }
@@ -79,7 +83,7 @@
 }
 .aboutUs-profile {
   width: 100%;
-  height: 80px;
+  height: 70px;
 }
 .about-user {
   font-family: "tahoma";
@@ -105,6 +109,6 @@
   margin-left: 270px;
 }
 .footer {
-  height: 24px;
+  height: 35px;
   background-color: #ededed;
 }
