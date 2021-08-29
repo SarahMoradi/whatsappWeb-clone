@@ -112,3 +112,29 @@
   height: 35px;
   background-color: #ededed;
 }
+.option-choose-profile{
+  width: 180px;
+  height: 144px;
+  position: absolute;
+  margin-top: 50px;
+  border-radius: 4px;
+  margin-left: 65px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px gray;
+  display: none;
+}
+.option-choose-profile >div{
+  padding: 8px 10px;
+}
+.option-choose-profile :first-child{
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.option-choose-profile :last-child{
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.option-choose-profile >div:hover{
+  background-color: silver;
+  cursor: pointer;
+}
