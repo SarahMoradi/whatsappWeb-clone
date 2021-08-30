@@ -19,3 +19,15 @@ backButon.addEventListener('click',function(){
 picture.addEventListener('click', function(){
  optionProfile.style.display = 'block';
 });
+
+document.onclick = (e) => {
+  if (!e.target.closest(".option-choose-profile") && e.target.id != "change-profile-pic") {
+      optionProfile.style.display = "none";
+  }
+}
+let editPen = document.getElementById("editPen");
+editPen.addEventListener('click',function(){
+  document.getElementById("ed-name").focus();
+ 
+  
+})
